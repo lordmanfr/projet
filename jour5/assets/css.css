@@ -3,3 +3,13 @@ img
     height: 500px;
 
 }
+header
+{
+    height: 150px;
+    background-color: rgb(247, 2, 2);
+}
+footer
+{
+    height: 150px;
+    background-color: rgb(250, 2, 2);
+}
