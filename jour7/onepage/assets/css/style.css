@@ -85,3 +85,30 @@ h2 {
     text-align:center;
     text-shadow: 1px 2px 4px #ffaaaa;
 }
+.container {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.container img {
+    width: calc(100% / 3);
+}
+.container1 {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.container1 img {
+    width: calc(100% / 3);
+}
+.container2 {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.container2 img {
+    width: calc(100% / 3);
+}

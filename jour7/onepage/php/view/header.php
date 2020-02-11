@@ -24,7 +24,7 @@
             <a href="#s1">mes objectife</a>
             <a href="#s2">expérience professionnelle</a>
             <a href="#s3">formation</a>
-            <a href="s4">langues</a>
+            <a href="#s4">langues</a>
             <a href="#s5">compétence</a>
             <a href="#s6">mes formation</a>
        
