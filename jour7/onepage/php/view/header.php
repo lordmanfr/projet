@@ -11,6 +11,15 @@
 <body>
     <header>
         <h1>bienvenu dans mon CV</h1>
+       <div> <?php echo $prenome ?>
+        <?php echo $nom ?></div>
+        <?php echo $nationalite ?>
+        
+
+
+
+
+
         <nav>
             <a href="#s1">mes objectife</a>
             <a href="#s2">expérience professionnelle</a>
