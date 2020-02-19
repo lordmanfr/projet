@@ -65,6 +65,17 @@
 </section>
 <section id="s4">
         <h2> langues</h2>
+        <div class="container3">
+                <?php
+                $tableau = glob("assets/img/sun*.{jpg,jpeg}", GLOB_BRACE);
+                foreach ($tableau as $s => $sun) {
+                        echo
+                                <<<codehtml
+                <img src="$sun" alt="$sun">
+         codehtml;
+                }
+                ?>
+        </div>
         <h3>Arab</h3>
         <h3>Anglais</h3>
 
@@ -84,6 +95,27 @@
         <h4>husseinmahmoudfr@gmail.com</h4>
         <h3>portable</h3>
         <h4>06 20 00 44 94</h4>
+        <section id="s7">
+                <h2>contact</h2>
+                <form action="#s7" method="GET">
+                        <input type="text" name="nom" placeholder="entrez votre nom" required>
+                        (*) <br>
+                        <input type="email" name="email" placeholder="entrez votre email" required>
+                        (*) <br>
+                        <input type="tel" name="phone" placeholder="numero de telefon">(*) <br>
+                        
+                        <textarea name="message" cols="60" rows="8" maxlength="1000" placeholder="entrez votre message" required></textarea><br>
+   
+                      
+                        <button type="submit">envoyer votre message</button><br><br><br>
+
+                        <div>
+                                <?php require_once "php/control/traitement-contact.php" ?>
+                        </div>
+                </form>
+
+        </section>
+
 
 
 </section>

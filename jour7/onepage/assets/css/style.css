@@ -15,6 +15,10 @@ header {
     height:30px;
     transition: all 0.5s linear;
 } 
+h3{
+    font-family: 'Sriracha', cursive;
+font-family: 'Galada', cursive;
+}
 
 /* CSS QUAND LA SOURIS PASSE SUR L'ELEMENT */
 /* ATTENTION: PAS DE SOURIS SUR LES SMARTPHONES ET LES TABLETTES */
@@ -25,13 +29,14 @@ header:hover {
 }
 
 nav a {
-    font-size:12px;
+    font: size 18px;
     transition: all 0.25s linear;
     text-decoration: none; /* ENLEVER LE SOULIGNE SUR LE TEXTE */
     border: 1px solid orange;
     padding: 8px; /* ESPACE VIDE ENTRE LE TEXTE ET LA BORDURE */
     border-radius:16px;
     box-shadow: 1px 2px 3px #000000;
+    margin: 22px;
 }
 
 nav a:hover {
@@ -70,6 +75,8 @@ p:hover {
     color:orange;
     text-align:center;
     text-shadow: 1px 2px 4px #ffaaaa;
+    font-family: 'Sriracha', cursive;
+
 }
 
 #s1 p {
@@ -89,10 +96,12 @@ h2 {
     display: flex;
     width:100%;
     flex-wrap: wrap;
+    
 }
 
 .container img {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
 }
 .container1 {
     display: flex;
@@ -112,3 +121,79 @@ h2 {
 .container2 img {
     width: calc(100% / 3);
 }
+.container3 {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.container3 img {
+    width: calc(100% / 3);
+}
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+  textarea {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+
+  }
+  button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  input[type=email]:focus {
+    background-color: lightblue;
+  }
+  input[type=tel]:focus {
+    background-color: lightblue;
+  }
+  input[type=date]:focus {
+    background-color: lightblue;
+  }
+  textarea:focus {
+    background-color: lightblue;
+  }
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+  main{
+    padding-top: 150px;
+  }
+  .h{
+      color:red;
+  }
+  .j{
+      color:green;
+  }

@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Galada|Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
     <header>
         <h1>bienvenu dans mon CV</h1>
-       <div> <?php echo $prenome ?>
+       <div class=j> <?php echo $prenome ?>
         <?php echo $nom ?></div>
-        <?php echo $nationalite ?>
+       <div class=h> <?php echo $nationalite ?></div><br><br>
         
 
 
@@ -27,6 +30,7 @@
             <a href="#s4">langues</a>
             <a href="#s5">compétence</a>
             <a href="#s6">mes formation</a>
+            <a href="#s7">contact</a>
        
 
         </nav>
