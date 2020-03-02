@@ -1,0 +1,222 @@
+ 
+img {
+    max-width:100%;
+}
+
+.container {
+    display: inline-table;
+    width:100%;
+}
+
+.container img {
+    width:calc(100% / 4);
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+}
+
+form > * {
+    padding:0.5rem;
+    margin:0.5rem;
+}
+section {
+    min-height:100vh; /* vh HAUTEUR DE L'ECRAN 100vh => 100% */
+    padding-top: 80px;
+}
+
+/* SI ON VEUT QUE LE MENU SOIT TOUT LE TEMPS VISIBLE */
+header {
+    position:fixed; /* NE PAS OUBLIER LES COORDONNEES top ET left */
+    top:0;
+    left:0;
+    background-color: rgba(200, 200, 200, 0.9); /* TRANSPARENCE POUR VOIR LE FOND */
+    width:100%;
+    padding:16px;
+    opacity:0.5;
+    height:30px;
+    transition: all 0.5s linear;
+} 
+h3{
+    font-family: 'Sriracha', cursive;
+font-family: 'Galada', cursive;
+}
+
+/* CSS QUAND LA SOURIS PASSE SUR L'ELEMENT */
+/* ATTENTION: PAS DE SOURIS SUR LES SMARTPHONES ET LES TABLETTES */
+
+header:hover {
+    opacity:1;
+    height:60px;
+}
+
+nav a {
+    font: size 18px;
+    transition: all 0.25s linear;
+    text-decoration: none; /* ENLEVER LE SOULIGNE SUR LE TEXTE */
+    border: 1px solid orange;
+    padding: 8px; /* ESPACE VIDE ENTRE LE TEXTE ET LA BORDURE */
+    border-radius:16px;
+    box-shadow: 1px 2px 3px #000000;
+    margin: 22px;
+}
+
+nav a:hover {
+    color: red;
+    /* font-size:16px; */
+    background-color:rgb(255, 255, 255);
+    /* transform:rotate(-400deg); */
+    display:inline-block;
+    box-shadow: none;
+}
+
+p:hover {
+    border:1px solid green;
+}
+
+.revenir {
+    position:fixed;
+    right:0;
+    bottom:0;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+/* 
+    QUAND EN HTML ON A id="s1" 
+    ALORS LE SELECTEUR CSS EST #s1
+*/
+#s1 {
+    background-image: url('assets/img/bureau.jpg');
+    background-size: cover;
+}
+
+#s1 h2 {
+    color:orange;
+    text-align:center;
+    text-shadow: 1px 2px 4px #ffaaaa;
+    font-family: 'Sriracha', cursive;
+
+}
+
+#s1 p {
+    color:#ffffff;
+    text-shadow: 1px 2px 4px #000000;
+    max-width:400px;
+    text-align:center;
+    display:block;
+    margin:0 auto;
+}
+h2 {
+    color:orange;
+    text-align:center;
+    text-shadow: 1px 2px 4px #ffaaaa;
+}
+.container {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    
+}
+
+.container img {
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+}
+.container1 {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.container1 img {
+    width: calc(100% / 3);
+}
+.container2 {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.container2 img {
+    width: calc(100% / 3);
+}
+.container3 {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.container3 img {
+    width: calc(100% / 3);
+}
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+  textarea {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+
+  }
+  button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  input[type=email]:focus {
+    background-color: lightblue;
+  }
+  input[type=tel]:focus {
+    background-color: lightblue;
+  }
+  input[type=date]:focus {
+    background-color: lightblue;
+  }
+  textarea:focus {
+    background-color: lightblue;
+  }
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+  main{
+    padding-top: 150px;
+  }
+  .h{
+      color:red;
+  }
+  .j{
+      color:green;
+  }
