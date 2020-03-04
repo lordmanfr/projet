@@ -1,0 +1,171 @@
+
+
+h1{
+    font-size: large;
+    color: red;
+}
+html, body {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-size:16px;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color:red;
+    text-align:center;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding:1rem;
+    border:1px solid #cccccc;
+}
+.listeArticle {
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+/* REGLE GENERALE */
+.listeArticle article {
+    margin:0.5rem;
+    width: calc( 100% / 3 - 1rem);
+    order:10;   /* POUR CHOISIR L'ORDRE D'AFFICHAGE DES ELEMENTS */
+}
+
+/* EXCEPTION: JE DONNE LA PRIORITE AUX ARTICLES DANS LA CATEGORIE SPORT */
+article.sport {
+    order:1; /* POUR CHOISIR L'ORDRE D'AFFICHAGE DES ELEMENTS */
+    width: 100%;
+}
+
+article img {
+    width:100%;
+    height:30vh;
+    object-fit:cover;
+}
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+  textarea {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+
+  }
+  button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  input[type=email]:focus {
+    background-color: lightblue;
+  }
+  input[type=tel]:focus {
+    background-color: lightblue;
+  }
+  input[type=date]:focus {
+    background-color: lightblue;
+  }
+  textarea:focus {
+    background-color: lightblue;
+  }
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+  main{
+    padding-top: 150px;
+  }
+  .h{
+      color:red;
+  }
+  .j{
+      color:green;
+  }
+  .listeArticle2{
+    display: flex;
+  }
+  .listeArticle2 article {
+    margin:0.5rem;
+    width: calc( 100% / 3 - 1rem);
+
+    order:10;   /* POUR CHOISIR L'ORDRE D'AFFICHAGE DES ELEMENTS */
+}
+
+/* EXCEPTION: JE DONNE LA PRIORITE AUX ARTICLES DANS LA CATEGORIE SPORT */
+
+article img {
+    width:100%;
+    height:30vh;
+    object-fit:cover;
+}
+.imagePrincipal2{
+    width: 100%;
+    height: 700px;
+    
+}
+.imagePrincipal{
+    width: 100%;
+    height: 700px;
+    
+}
+.contact {
+display:flex;
+flex-direction: column;
+;
+
+}
+.contact>*{
+  padding:0.25rem;
+  margin:0.25rem;
+  width: 50%;
+}
+
+.deroulant{
+
+  width: 50%;
+
+}
+

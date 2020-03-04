@@ -25,7 +25,7 @@
             $requeteSQL =
                 <<<CODESQL
                     
-                    INSERT INTO contact 
+                    INSERT INTO contact
                     (name, email, message) 
                     VALUES 
                     ('$nom', '$email', '$message');
