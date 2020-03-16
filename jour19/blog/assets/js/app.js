@@ -71,11 +71,7 @@ for(var i=0;i < listeimage.length;i++)
         // ON VA COPIER LE TEXTE
         balisedatePrincipal2.innerHTML = baliseh5.innerHTML;
 
-       
 
-
-      
-        
     
 
     }
@@ -85,6 +81,9 @@ for(var i=0;i < listeimage.length;i++)
     
     );
 }
+
+
+
 
     
     

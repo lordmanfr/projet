@@ -3,7 +3,7 @@
   <h2>news</h2>
 
   <div class="principal2">
-    <img class="imagePrincipal2" src="assets/img/a2.jpeg" alt="">
+    <img class="imagePrincipal2" src="assets/img/n1.jpg" alt="">
     <h3 class="categoriePrincipal2">categorie</h3>
     <h4 class="titrePrincipal2">titre</h4>
 
@@ -29,7 +29,7 @@
 CODESQL;
     $tabAssoColonneValeur = [];
 
-    require_once "php/model/envoyer-sql.php";
+    require "php/model/envoyer-sql.php";
 
 
 
@@ -62,7 +62,7 @@ CODEHTML;
 <section>
   <h2>liste des articles </h2>
   
-  <img class="imagePrincipal" src="assets/img/a1.jpeg" alt="">
+  <img class="imagePrincipal" src="assets/img/n3.jpg" alt="">
   <h3>categorie</h3>
   <h4>titre</h4>
   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
