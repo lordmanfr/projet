@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>SITE POUR DECLARER VOS SORTIES</h1>
-        <img src="assets/img/logo.svg" alt="logo">
+        <img src="assets/img/logo.jpg" alt="logo">
         <nav>
             <a href="index.php">accueil</a>
             <a href="attestation.php">attestation</a>
