@@ -3,7 +3,7 @@
     <footer>
      
         <nav>
-            <a href="verifier.php">verifier</a>
+            <a href="verifie.php">verifier</a>
             <a href="admin.php">admin</a>
         </nav>
 
