@@ -50,9 +50,14 @@ $name = $user1->name;
         try {
             //  stocker dans la propriété de classe conn une nouvelle instance de l'objet PDO
             $this->conn = new PDO($this->dsn, $this->username, $this->pwd, $this->options);
+         //   echo 'Connexion établie';
         } catch (PDOException $error) {
             echo 'Error : ' . $error->getMessage();
         }
         return $this->conn;
     }
 }
+
+//pour tester database
+//$objet = new Database();
+//$pdo = $objet->connect();
