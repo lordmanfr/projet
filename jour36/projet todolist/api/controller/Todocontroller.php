@@ -15,7 +15,7 @@ class TodoController
     public function getAll()
     {
         $data = $this->model->getTodos();
-     //  echo '<pre>';
+     //  echo '<pre>'; 
      //  print_r($data);
      //   echo '</pre>';
              // je veux vérifier s'il y a au moins 1 élément dans mon tableau

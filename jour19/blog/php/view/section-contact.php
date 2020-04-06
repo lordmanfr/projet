@@ -33,7 +33,7 @@
             require "php/controller/form-article.php";
             ?>
         </div>
-    </form>
+    </form> 
     <section class="updateSection cache">
         <button class="closePopup">close</button>
         <h2>again</h2>
@@ -124,15 +124,15 @@
                 // JE CHARGE LE CODE PHP POUR ENVOYER LA REQUETE
                 require "php/model/envoyer-sql.php";
 
-                
+
                 $tabLigne = $pdoStatement->fetchAll();
 
                 foreach ($tabLigne as $tabAsso) {
-                
+
                     extract($tabAsso);
 
                     echo
-                    <<<CODEHTML
+                        <<<CODEHTML
 
                     <tr>
                         <td>$id</td>
@@ -160,13 +160,12 @@
                     </tr>
                     
                     CODEHTML;
-                    }
+                }
                 ?>
             </tbody>
         </table>
     </section>
     <script>
-     
         var boutonClose = document.querySelector("button.closePopup");
         boutonClose.addEventListener("click", function() {
             var baliseSectionUpdate = document.querySelector("section.updateSection");
@@ -177,7 +176,7 @@
         listeBoutonUpdate.forEach(function(bouton) {
             bouton.addEventListener("click", function(event) {
                 console.log("CLICK SUR UN BOUTON modifier");
-              
+
                 var baliseBouton = event.target;
                 var baliseTd = baliseBouton.parentNode;
                 var baliseUpdate = baliseTd.querySelector(".infosUpdate");
@@ -201,10 +200,10 @@
             });
 
         });
-    
+
         // QUAND LE CLIENT VA CLIQUER SUR LE BOUTON supprimer    
         var listeBoutonDelete = document.querySelectorAll("button.delete");
-       
+
         listeBoutonDelete.forEach(function(bouton) {
             // DEBUG
             // console.log(bouton);
@@ -226,10 +225,10 @@
                 if (confirmation) {
                     // ON VA DECLENCHER LE FORMULAIRE DE DELETE DIRECTEMENT
                     var formDelete = document.querySelector("form#delete");
-                    
+
                     formDelete.submit();
                 } else {
-                   
+
                 }
             });
 
