@@ -1,0 +1,18 @@
+.container  {
+    border: 1px solid #333;
+    width: 70%;
+    padding: 1rem;
+  }
+  p{
+      color: red;
+      font-size: 30px;
+      font-family: 'Modak', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+  }
+  h1{
+      font-size: 50px;
+      font-family: 'Modak', cursive;
+
+      color: green;
+  }
