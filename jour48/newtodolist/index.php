@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todolist Project</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <title>todo</title>
 </head>
+
 <body>
-    <h1>Todolist Ajax</h1>
+
+
+    <h1>welcom</h1>
     <form action="" method="post">
         <div>
-            <label for="title">Titre de la tâche</label>
+            <label for="title">la tâche</label>
             <input type="text" name="title" id="title">
         </div>
         <div>
-            <label for="description">Description de la tâche</label>
-            <input type="text" name="description" id="description">
+            <label for="body">Description</label>
+            <input type="text" name="body" id="description">
         </div>
-        <button>Save</button>
+        <button>Save it</button>
     </form>
     <div class="todos"></div>
-    <script src="assets/js/main.js"></script>
+    
+          
+
+
+
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
