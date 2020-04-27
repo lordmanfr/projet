@@ -1,0 +1,55 @@
+html, body {
+    font-size:16px;
+}
+* {
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}        
+form > * {
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+
+.listTodo {
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+.listTodo article {
+    border:1px solid #aaaaaa;
+    padding: 0.2rem;
+    margin:0.2rem;
+    width: calc(100% / 3 - 0.4rem); /* IL FAUT ENLEVER LE MARGIN */
+}
+
+article img {
+    width:100%;
+    height:30vh;
+    object-fit:cover;
+}
+
+article.frendship {
+    background-color: white;
+}
+article.hate {
+    background-color: orangered;
+}
+article.love {
+    background-color: red;
+}
+article.soft sex {
+    background-color: rgb(155, 49, 141);
+}
+article.hard sex {
+    background-color: rgb(43, 2, 2);
+}
+article.complix {
+    background-color: rgb(29, 28, 26);
+}
+h1{
+    color: red;
+}

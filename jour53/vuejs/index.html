@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>VUEJS</h1>
+    </header>
+    <main>
+        <!-- ETAPE2: DELIMITER LA ZONE D'ACTION DE VUEJS -->
+        <div id="app">
+            {{ message }}
+        </div>
+
+    </main>
+    <footer>
+        <p>tous droits réservés</p>
+    </footer>
+
+    <!-- ETAPE 1 -->
+    <!-- ON CHARGE LE CODE DE VUEJS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!-- ETAPE 3 : RELIER MA PAGE AVEC VUEJS -->
+    <script>
+
+// ON CREE UNE VARIABLE app 
+// ET ON STOCKE COMME VALEUR UN OBJET CREE DEPUIS LA CLASSE Vue
+var app = new Vue({
+  el: '#app',       // SELECTEUR CSS QUI PERMET DE SELECTIONNER LA BALISE HTML QUI DELIMITE L'ACTION DE VUEJS
+  data: {
+    message: 'Hello Vue !'
+  }
+});
+
+    </script>
+</body>
+</html>

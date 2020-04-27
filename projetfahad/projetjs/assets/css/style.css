@@ -1,0 +1,85 @@
+
+body
+{
+
+    margin:0;
+    padding:0;
+
+}
+
+.thead1 {
+
+display: flex;
+width: 100%;
+text-align: center;
+position: fixed;
+left:43%;
+}
+.thead1 td{
+    margin:6px;
+    padding:9px;
+}
+
+
+ h1{
+
+    text-align: center;
+}
+
+
+.formbook{
+    width: 50%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+form >*{
+    margin:3px;
+    padding:3px;
+
+}
+
+.btn{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+ border:none;
+
+
+}
+table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,0.05);
+
+    padding: 0.75rem; 
+     vertical-align: top; 
+    border-top: 1px solid #DFD7CA; 
+}
+
+element.style {
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #DFD7CA;
+}
+.table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #DFD7CA;
+}
+th {
+    text-align: inherit;
+}
+
+
+.table{
+    color: red;
+}
